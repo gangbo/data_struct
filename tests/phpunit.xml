@@ -1,7 +1,12 @@
-<phpunit
-        bootstrap="../src/autoload.php"
-        colors="true"
->
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="bootstrap/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false">
     <testsuites>
         <testsuite name="ds">
             <directory>tests</directory>
