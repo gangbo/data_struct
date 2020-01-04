@@ -5,8 +5,9 @@
  * Date: 2017/6/5
  * Time: 13:28
  */
+namespace Tests;
 use PHPUnit\Framework\TestCase;
-use src\Sort;
+use App\Sort;
 
 class SortTest extends TestCase
 {

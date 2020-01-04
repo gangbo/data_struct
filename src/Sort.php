@@ -1,6 +1,5 @@
 <?php
-
-namespace src;
+namespace App;
 
 
 class Sort
